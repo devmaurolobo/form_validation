@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+    <title>Formulario</title>
+</head>
+<body >
+    <form id="form">
+        <h1>Formulario</h1>
+        <label for="name" >Nome:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email" >Email:</label>
+        <input type="text" name="email" id="email">
+
+        <label for="password" >Senha:</label>
+        <input type="password" id="password">
+    
+        <label for="job" >Situação de Trabalho:</label>
+        <select name="job" id="job"></label>
+            <option value="">Esta buscando emprego?</option>
+            <option value="sim">Sim</option>
+            <option value="não">Não</option>
+        </select>
+
+        <label for="textarea" >Mensagem:</label>
+        <textarea name="message" id="text"></textarea>
+
+        <button type="submit" id="button" onclick="teste()">Enviar</button> 
+    </form>   
+</body>
+    
+</html>
